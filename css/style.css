@@ -182,16 +182,16 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
+  justify-items: center;
   row-gap: 2rem; }
   @media only screen and (max-width: 50em) {
     .realtors {
       grid-column: full-start / full-end; } }
-  .realtors__title {
-    text-align: center; }
   .realtors__list {
     display: grid;
     grid-template-columns: min-content max-content;
     column-gap: 2rem;
+    row-gap: 5vh;
     align-items: center; }
     @media only screen and (max-width: 50em) {
       .realtors__list {

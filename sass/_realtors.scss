@@ -6,20 +6,18 @@
     display: grid;
     align-content: center;
     justify-content: center;
+    justify-items: center;
     row-gap: 2rem;
 
     @media only screen and (max-width: $bp-medium) {
         grid-column: full-start / full-end;
     }
 
-    &__title {
-        text-align: center;
-    }
-
     &__list {
         display: grid;
         grid-template-columns:  min-content max-content;
         column-gap: 2rem;
+        row-gap: 5vh;
         align-items: center;
 
         @media only screen and (max-width: $bp-medium) {
@@ -43,3 +41,8 @@
         margin-top: -.3rem;
     }
 }
+
+// .realtors {
+//     background-color: $color-secondary;
+//     grid-column: col-start 7 / full-end;
+// }
